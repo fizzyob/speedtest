@@ -28,13 +28,5 @@ DOMAIN-SUFFIX,115.com
 DOMAIN-SUFFIX,123[0-9]+.com
 DOMAIN-SUFFIX,^123\\d{3}\\.com$
 DOMAIN-KEYWORD,123
-#自用内网直连
-# OpenClaw 局域网直连
-IP-CIDR,192.168.31.60/32,no-resolve
-IP-CIDR,192.168.31.0/24,no-resolve
-IP-CIDR,192.168.0.0/16,no-resolve
-IP-CIDR,10.0.0.0/8,no-resolve
-IP-CIDR,172.16.0.0/12,no-resolve
-
 
 
